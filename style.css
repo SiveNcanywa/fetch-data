@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-image: url(./new.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+.white {
+  background-color: white;
+  mix-blend-mode: overlay;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 230px;
+  box-shadow: black 10px;
+}
+
+.word {
+  text-align: center;
+  list-style-type: none;
+  mix-blend-mode: none;
+  color: black;
+}
+button {
+  width: 160px;
+  height: 50px;
+}
