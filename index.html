@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,6 +16,18 @@
     <div class="banner"></div>
     <div class="white">
       <div id="charizard"></div>
+    </div>
+    <div class="wrap">
+      <div class="search">
+        <input
+          type="text"
+          class="searchTerm"
+          placeholder="What are you looking for?"
+        />
+        <button type="submit" class="searchButton" onclick="searchPokemon()">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
     <script src="./script.js"></script>
   </body>
